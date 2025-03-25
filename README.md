@@ -1,4 +1,4 @@
-# NAME: OVIYA P
+![image](https://github.com/user-attachments/assets/2bb66b63-e5e3-4b65-8d4e-04e054023430)# NAME: OVIYA P
 # REG NO:212223110033
 # DATE:25-04-2025
 # EXNO:02 - DS
@@ -27,117 +27,27 @@ STEP 8: Use heatmap method of representation to show relationships between two v
 
 ## CODING AND OUTPUT
 
-```py
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns  
-df=pd.read_csv("titanic_dataset.csv")
-df
-```
-![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/6499f6f0-5776-493f-9cfe-43140a7c35f6)
-
-```py
-df.info()
-```
-![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/5d93e91f-94a8-42b8-97af-9c9716ebe3f8)
-
-```py
-df.shape
-```
-![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/380bbd5e-3463-437e-955b-3b35ddd89640)
-
-```py
-df.set_index("PassengerId",inplace=True)
-df.describe()
-```
-![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/6a4e6b50-8a3c-43ae-bd1c-5a82bb1b7b4b)
-
-```py
-df.shape
-```
-![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/d489f8ff-b5ff-4a6e-a312-307fa8068203)
-
-### Categorical data analysis
-```py
-df.nunique()
-```
-![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/91bfd88e-0e49-49d8-b0c5-71b9ac16b0e0)
-
-```py
-df["Survived"].value_counts()
-```
-![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/cdcf275d-042a-4754-935b-8ab5966ed3e9)
-
-```py
-per=(df["Survived"].value_counts()/df.shape[0]*100).round(2)
-per
-```
-![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/de7753a5-37c9-496a-8b06-892d245abd6f)
-
-```py
-sns.countplot(data=df,x="Survived")
-```
-![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/06747091-c02c-4a3b-af01-0d1c175ac42d)
-```py
-df.Pclass.unique()
-```
-![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/74d1f411-bc4c-47ff-a560-74f270b49942)
-
-```py
-df.rename(columns={'Sex':'Gender'},inplace=True)
-df
-```
-![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/77618f16-976c-4fe9-8c00-aec73968276b)
-
-### Bivariate Analysis
-```py
-sns.catplot(x="Gender",col="Survived",kind="count",data=df,height=5,aspect=.7)
-```
-![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/999ac0a5-bea4-4e5b-a362-f2ccbfd28cc1)
-```py
-sns.catplot(x="Survived",hue="Gender",data=df,kind="count")
-```
-![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/a24cf8be-1da3-4599-bc1f-ed345c7e43b6)
-
-```py
-df.boxplot(column="Age",by="Survived")
-```
-![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/416de460-1b9b-4082-a6ef-2d18e0f0ff2a)
-
-```py
-sns.scatterplot(x=df["Age"],y=df["Fare"])
-```
-![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/17d6abaa-1851-4992-ae5a-54f006e5d440)
-
-```py
-sns.jointplot(x="Age",y="Fare",data=df)
-```
-![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/01a1a537-ae64-43bb-9f21-44d8b32879ce)
-
-### Multivariate Analysis
-```py
-fig, ax1 = plt.subplots(figsize=(8,5))
-plt = sns.boxplot(ax=ax1,x='Pclass',y='Age',hue='Gender',data=df)
-```
-![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/4a9d77aa-b747-4ce3-9b9e-4eeb40728806)
-
-```py
-sns.catplot(data=df,col="Survived",x="Gender",hue="Pclass",kind="count")
-```
-![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/f45d6e5c-799f-4eba-add9-b1837dce98b7)
-
-# Co-relation
-```py
-corr=df.corr()
-sns.heatmap(corr,annot=True)
-```
-![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/6ad0bc8d-58a7-4093-8ba3-60b4cc8b2a3c)
-
-```py
-sns.pairplot(df)
-```
-![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/43a838dc-8765-4c1b-9f81-c1d53d853265)
+![image](https://github.com/user-attachments/assets/76f388df-dd39-4a62-82bc-5eabd9f95d61)
+![image](https://github.com/user-attachments/assets/fe73f57c-3619-46a8-bc24-3be409675fb4)
+![image](https://github.com/user-attachments/assets/91840844-e7d1-4fbd-bfc6-37b5c5ffd2fd)
+![image](https://github.com/user-attachments/assets/aa12480e-8ac7-4699-9d92-de099aeed793)
+![image](https://github.com/user-attachments/assets/54a2a4af-81c4-4efa-9280-2707400c8ca8)
+![image](https://github.com/user-attachments/assets/4635dc8d-796f-4311-8ce9-d97a565c7883)
+![image](https://github.com/user-attachments/assets/9f0fe777-773b-4364-ad1e-e98e0246dc5f)
+![image](https://github.com/user-attachments/assets/ee63ceb9-83a4-4217-9e96-0fd4f9a07547)
+![image](https://github.com/user-attachments/assets/7bede7c8-e706-4d0c-bb64-c4b4646cb9c5)
+![image](https://github.com/user-attachments/assets/2d4268c5-e3b9-4a13-8282-815a2e516175)
+![image](https://github.com/user-attachments/assets/898c7c2e-c9c6-40e6-9d65-d815b3f96808)
+![image](https://github.com/user-attachments/assets/16100f9a-c9f9-4c3f-ac52-e61c089e70c7)
+![image](https://github.com/user-attachments/assets/fc81d957-7657-4ef8-a351-3354bc120e8d)
+![image](https://github.com/user-attachments/assets/fd64d164-34ec-4ae6-b945-134b6e6d822f)
+![image](https://github.com/user-attachments/assets/fc8fa012-f8c4-4126-bbc2-3b02cc77003a)
+![image](https://github.com/user-attachments/assets/4d1a6792-5826-4332-a51c-82b09ebc5ceb)
+![image](https://github.com/user-attachments/assets/92393ef4-e70a-4bcf-b1b9-2abd4852c368)
+![image](https://github.com/user-attachments/assets/11de41a4-7fda-4d5e-8357-73ff401b179e)
+![image](https://github.com/user-attachments/assets/2b0c4438-86e5-453e-beb5-d12aacd479c4)
+![image](https://github.com/user-attachments/assets/9b8333f7-c366-48c2-b265-a82b7733581e)
+![image](https://github.com/user-attachments/assets/43aba90f-f86b-40b2-aec3-6188dec1f061)
 
       
 
