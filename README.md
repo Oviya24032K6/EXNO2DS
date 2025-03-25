@@ -138,7 +138,8 @@ sns.heatmap(corr,annot=True)
 ```
 ![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/6ad0bc8d-58a7-4093-8ba3-60b4cc8b2a3c)
 
-```pysns.pairplot(df)
+```py
+sns.pairplot(df)
 ```
 ![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/43a838dc-8765-4c1b-9f81-c1d53d853265)
 
