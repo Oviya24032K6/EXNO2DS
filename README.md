@@ -78,12 +78,6 @@ per
 sns.countplot(data=df,x="Survived")
 ```
 ![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/06747091-c02c-4a3b-af01-0d1c175ac42d)
-
-```py
-df
-```
-![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/b6bbe089-8bf5-4272-b450-0e7f089fda8a)
-
 ```py
 df.Pclass.unique()
 ```
@@ -117,7 +111,8 @@ sns.scatterplot(x=df["Age"],y=df["Fare"])
 
 ```py
 sns.jointplot(x="Age",y="Fare",data=df)
-```![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/01a1a537-ae64-43bb-9f21-44d8b32879ce)
+```
+![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/01a1a537-ae64-43bb-9f21-44d8b32879ce)
 
 ### Multivariate Analysis
 ```py
