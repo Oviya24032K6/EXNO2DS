@@ -1,4 +1,6 @@
-# EXNO2DS
+# NAME: OVIYA P
+# REG NO:212223110033
+# EXNO:02 - DS
 # AIM:
       To perform Exploratory Data Analysis on the given data set.
       
