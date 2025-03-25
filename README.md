@@ -142,7 +142,8 @@ sns.heatmap(corr,annot=True)
 ```
 ![image](https://github.com/PriyankaAnnadurai/EXNO2DS/assets/118351569/43a838dc-8765-4c1b-9f81-c1d53d853265)
 
-        <<INCLUDE YOUR CODING AND OUTPUT SCREENSHOTS>>
+      
 
 # RESULT
-        <<INCLUDE YOUR RESULT HERE>>
+     
+ We have performed Exploratory Data Analysis on the given data set successfully
